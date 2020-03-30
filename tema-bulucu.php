@@ -74,9 +74,9 @@ echo '<h5>Themeforest adresinde tema bulunamadı.</h5>';
 exit;
 }
 if($tnekadar[1][0]<5) {
-$fuck = ("1");
+$zf = ("1");
 } else {
-$fuck = ("5");
+$zf = ("5");
 }
 
 echo '<table class="table">
@@ -87,7 +87,7 @@ echo '<table class="table">
 </tr>
 <tbody class="table">';
 
-for($ti=0; $ti<$fuck; $ti++)
+for($ti=0; $ti<$zf; $ti++)
 {
 $str = str_replace('<span class="zS0k1">', "", $t_adi[1][$ti]);
 $str1 = str_replace('</span>', "", $str);
